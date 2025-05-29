@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="src/output.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body
+    class="bg-Blue-950-main-BG text-white h-screen grid place-content-center"
+  >
+    <main>
+      <div class="w-[327px] bg-Blue-900-card-BG p-6 rounded-[15px]">
+        <div class="relative mb-6 group">
+        <img
+          src="./assets/img/image-equilibrium.jpg"
+          alt="image-equilibrium"
+          class="rounded-lg"
+        />
+        <div class="bg-Cyan-400/50 absolute top-0 w-full h-full place-content-center rounded-lg hidden
+        group-hover:grid cursor-pointer">
+          <img src="./assets/img/icon-view.svg" alt="icon-view" />
+        </div>
+        </div>
+
+        <h2
+          class="font-semibold text-[1.22em] mb-3 cursor-pointer hover:text-Cyan-400"
+        >
+          Equilibrium #3429
+        </h2>
+        <p class="text-Blue-500 mb-4">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+
+        <div class="flex flex-row place-content-between mb-4">
+          <div class="flex gap-1.5 items-center">
+            <img src="./assets/img/icon-ethereum.svg" alt="icon-ethereum" />
+            <p class="text-Cyan-400">0.041 ETH</p>
+          </div>
+          <div class="flex gap-1.5 items-center">
+            <img src="./assets/img/icon-clock.svg" alt="icon-clock" />
+            <p class="text-Blue-500">3 days left</p>
+          </div>
+        </div>
+
+        <hr class="text-Blue-800-line mb-4" />
+        <div class="flex items-center gap-4">
+          <img
+            src="./assets/img/image-avatar.png"
+            alt="image-avatar"
+            class="w-[33px] h-[33px] border-2 border-White rounded-full"
+          />
+          <p class="text-Blue-500">
+            Creation of
+            <span class="text-white cursor-pointer hover:text-Cyan-400"
+              >Jules Wyvern</span
+            >
+          </p>
+        </div>
+      </div>
+    </main>
+     <footer class="attribution mt-4">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Juanruizkk">Juan Ruiz</a>.
+  </footer>
+  </body>
+</html>
