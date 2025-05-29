@@ -26,8 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [ChallangeCardNFT](https://challangecardnft.netlify.app/)
 
 ## My process
 
@@ -44,5 +43,4 @@ To achieve the hover effect, I wrapped the image and the eye icon in a parent di
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Juanruizkk](https://www.frontendmentor.io/profile/Juanruizkk)
